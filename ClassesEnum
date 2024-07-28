@@ -1,0 +1,6 @@
+from enum import Enum
+
+class ClassesEnum( str, Enum):
+  WARRIOR='WARRIOR'
+  CLERIC='CLERIC'
+  ROGUE='ROGUE'
